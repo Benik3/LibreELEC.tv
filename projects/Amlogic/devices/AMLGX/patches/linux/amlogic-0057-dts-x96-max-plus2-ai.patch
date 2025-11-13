@@ -1,3 +1,15 @@
+diff --git a/arch/arm64/boot/dts/amlogic/Makefile b/arch/arm64/boot/dts/amlogic/Makefile
+index 9e57cc56bfa7..7788403f0f28 100644
+--- a/arch/arm64/boot/dts/amlogic/Makefile
++++ b/arch/arm64/boot/dts/amlogic/Makefile
+@@ -97,6 +97,7 @@ dtb-$(CONFIG_ARCH_MESON) += meson-sm1-odroid-hc4.dtb
+ dtb-$(CONFIG_ARCH_MESON) += meson-sm1-sei610.dtb
+ dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-air-gbit.dtb
+ dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-air.dtb
++dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-max-plus2-ai.dtb
+ 
+ # Overlays
+ meson-g12a-fbx8am-brcm-dtbs	:= meson-g12a-fbx8am.dtb meson-g12a-fbx8am-brcm.dtbo
 diff --git a/arch/arm64/boot/dts/amlogic/meson-sm1-x96-max-plus2-ai.dts b/arch/arm64/boot/dts/amlogic/meson-sm1-x96-max-plus2-ai.dts
 new file mode 100644
 index 000000000000..399c0ad673e0
